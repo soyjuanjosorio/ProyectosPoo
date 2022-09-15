@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e73e4719-0f8a-410d-90de-f0daf68bca3d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/POOJJ.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Taller1/agenda/app/AppAgenda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Taller1/agenda/dominio/Agenda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Taller1/agenda/dominio/Contacto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Taller1/dispensadora/app/AppDispensadoraSnacks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Taller1/dispensadora/dominio/DispensadoraSnacks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Taller1/dispensadora/dominio/Snack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Taller1/dispensadora/dominio/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tarea1/Calculadora/app/AppCalculadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tarea1/Calculadora/dominio/Calculadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TALLER1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TALLER1/.idea/TALLER1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TALLER1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TALLER1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TALLER1/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2EamvleHglFKyAdU91DtC1WmcDJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/Ingeniería Electrónica UCO/POO-2022-2/Anderson/src/main/java/Desafio_2/Calculadora"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="AppCalculadora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tarea1.Calculadora.app.AppCalculadora" />
+      <module name="PooEnsayoTarea.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tarea1.Calculadora.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AppCalculadora" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e73e4719-0f8a-410d-90de-f0daf68bca3d" name="Changes" comment="" />
+      <created>1662842307641</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662842307641</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
