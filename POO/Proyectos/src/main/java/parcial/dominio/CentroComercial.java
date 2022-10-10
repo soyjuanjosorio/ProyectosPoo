@@ -8,26 +8,39 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class CentroComercial {
-    public static byte CAPACIDAD = 100;
+    public static byte CAPACIDAD = 2;
     private String nombre;
 
     private List<Tienda> tiendas = new ArrayList<>();
 
+    public List<Tienda> getTiendas() {
+        return tiendas;
+    }
+
+    @Override
+    public String toString() {
+        return "CentroComercial{" +
+                "nombre='" + nombre + '\'' +
+                ", tiendas=" + tiendas +
+                '}';
+    }
+
+    public void setTiendas(List<Tienda> tiendas) {
+        this.tiendas = tiendas;
+    }
 
     public boolean abrirTienda(long codigo, String nombre) {
-        Tienda tienda = null;
+        //Tienda tienda = null;
         if ((this.tiendas.size() + 1) <= CAPACIDAD) {
-            tienda = this.buscarTienda(codigo);
-            if (tienda == null) {
-             // tienda = new tienda(codigo, nombre);
+            if (this.buscarTienda(codigo) == null) {
+                Tienda tienda = new Tienda(codigo,nombre);
                 this.tiendas.add(tienda);
+                System.out.println("La tienda fue creada con exito");
                 return true;
-
             } else {
-                System.out.println(" La tienda  : " + tienda.getNombre() + " ya se encuentra abierta. ");
-                return true;
+                System.out.println("La tienda  : " + codigo + " ya se encuentra abierta.");
+                return false;
             }
-
         } else {
             System.out.println(" El centro comercial esta lleno ");
             return false;
@@ -45,6 +58,7 @@ public class CentroComercial {
     }
 
     public Tienda buscarTienda(String nombre) {
+        System.out.println(nombre);
         List<Tienda> buscadoNombre = this.tiendas.stream()
                 .filter(tienda -> nombre.equals(tienda.getNombre()))
                 .collect(Collectors.toList());
@@ -57,19 +71,12 @@ public class CentroComercial {
     }
 
     public Tienda buscarTienda(long codigo) {
-        List<Tienda> buscadoCodigo = this.tiendas.stream()
-                .filter(tienda -> tienda.getCodigo() == codigo)
-                .collect(Collectors.toList());
-        if (buscadoCodigo != null) {
-            return buscadoCodigo();
+        List<Tienda> tiendas = this.tiendas.stream().filter(tienda -> tienda.getCodigo() == codigo).collect(Collectors.toList());
+        if (tiendas.size() > 0){
+            return tiendas.get(0);
         } else {
-            System.out.println(" La tienda buscada no existe");
             return null;
         }
-    }
-
-    private Tienda buscadoCodigo() {
-        return null;
     }
 
 
@@ -88,9 +95,4 @@ public class CentroComercial {
        // this.tiendas.sort(Comparator.comparing(Tienda::getNombre);
        // System.out.printf("Se ha ordenado la tienda por nombre alfabetico.");
    // }
-
-
-    //private void buscarTienda() { }
-
-   // private void buscarTienda() {    }
 }
